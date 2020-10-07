@@ -85,6 +85,10 @@ button.btn {
   cursor: pointer;
 }
 
+.container {
+  margin: 0 5vw;
+}
+
 /* --------- Navbar ---------- */
 .nav {
   background: white;
@@ -200,8 +204,9 @@ main .blog {
   background: url('../assets/Abract01.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
+  height: 95vh;
   width: 100%;
+  background-size: 60%;
 }
 
 main .blog .blog-post {
@@ -229,6 +234,29 @@ main .blog-content .btn-blog {
 
 main .blog-content span {
   display: block;
+}
+
+section .container .owl-nav {
+  position: absolute;
+  top: 0%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+  color: var(--text-gray);
+  background: transparent;
+  font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent;
+  color: var(--midnight);
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  outline: none;
 }
 
 /* Viewport less than or equal to 750px */
