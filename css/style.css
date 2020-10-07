@@ -86,6 +86,11 @@ button.btn {
   cursor: pointer;
 }
 
+button.btn:focus,
+button.btn:active {
+  outline: none;
+}
+
 .container {
   margin: 0 5vw;
 }
