@@ -610,6 +610,10 @@ footer.footer .move-up span:hover {
   }
 
   main .site-content .post-content>.post-image .post-info {
+    display: none;
+  }
+
+  main .site-content .sidebar .post-content>.post-image .post-info {
     display: initial;
   }
 
