@@ -18,4 +18,11 @@ $(document).ready(() => {
     navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
   });
 
+  // Click to Scroll Top
+  $('.move-up span').click(() => {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 2000);
+  });
+
 });
