@@ -41,8 +41,9 @@ html {
 
 }
 
-
+/* ================================================= */
 /* ---------------- Global Classes ----------------- */
+/* ================================================= */
 a {
   text-decoration: none;
   color: var(--text-gray);
@@ -98,7 +99,13 @@ p {
   color: var(--text-light);
 }
 
-/* --------- Navbar ---------- */
+/* ================================================= */
+/* ------------- End of Global Classes ------------- */
+/* ================================================= */
+
+/* ========================================= */
+/* ---------------- Navbar ----------------- */
+/* ========================================= */
 .nav {
   background: white;
   padding: 0 2rem;
@@ -175,9 +182,15 @@ p {
   color: #a1c4cf;
 }
 
-/* -------- Main Content -------- */
+/* ========================================= */
+/* -------------End of Navbar -------------- */
+/* ========================================= */
 
-/* Site Title */
+/* ============================================= */
+/* ---------------- Main Content --------------- */
+/* ============================================= */
+
+/* ------------  Site Title  --------------*/
 main .site-title {
   background: url('../assets/Background-image.png');
   background-size: cover;
@@ -208,7 +221,9 @@ main .site-title .btn:hover {
   color: var(--white);
 }
 
-/* Blog Carousel */
+/* --------- End of  Site Title  ---------*/
+
+/* -------------- Blog Carousel --------- */
 main .blog {
   background: url('../assets/Abract01.png');
   background-repeat: no-repeat;
@@ -268,7 +283,10 @@ section .container .owl-nav {
   outline: none;
 }
 
-/* Site Content */
+/* -------- End of Blog Carousel --------- */
+
+/* ----------------- Site Content --------------- */
+/* ------------ End of Site Content ------------- */
 main .site-content {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -339,6 +357,13 @@ main .post-content .post-title a {
   background: var(--text-gray);
   color: var(--white);
 }
+
+/* ------------ End of Site Content ------------- */
+
+
+/* ============================================= */
+/* -----------End of Main Content -------------- */
+/* ============================================= */
 
 /* Viewport less than or equal to 750px */
 @media only screen and (max-width: 750px) {
