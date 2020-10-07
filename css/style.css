@@ -45,8 +45,28 @@ ul {
   flex-wrap: wrap;
 }
 
-/* ---------------- Global Classes ----------------- */
+h1 {
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+}
 
+h2 {
+  font-family: var(--Lexend);
+}
+
+h3 {
+  font-family: var(--Abel);
+  font-size: 1.3rem;
+}
+
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
 
 /* --------- Navbar ---------- */
 .nav {
@@ -125,8 +145,38 @@ ul {
   color: #a1c4cf;
 }
 
-/* --------- Navbar ---------- */
+/* -------- Main Content -------- */
 
+/* Site Title */
+main .site-title {
+  background: url('../assets/Background-image.png');
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-title .site-background {
+  padding-top: 10rem;
+  text-align: center;
+  color: var(--white);
+}
+
+main .site-title h1,
+h3 {
+  margin: .3rem;
+}
+
+main .site-title .btn {
+  margin: 1.8rem;
+  background: var(--sky);
+}
+
+main .site-title .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
 
 /* Viewport less than or equal to 750px */
 @media only screen and (max-width: 750px) {
@@ -140,5 +190,3 @@ ul {
     display: initial;
   }
 }
-
-/* Viewport less than or equal to 750px */
