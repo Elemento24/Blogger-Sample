@@ -130,7 +130,7 @@ p {
 .nav .toggle-collapse .toggle-icons {
   display: flex;
   justify-content: flex-end;
-  padding: 1.7rem 0;
+  padding: 1.5rem 0;
 }
 
 .nav .toggle-collapse .toggle-icons i {
@@ -144,7 +144,7 @@ p {
 }
 
 .collapse {
-  height: 30rem;
+  height: 27rem;
 }
 
 .nav .nav-items .nav-link {
@@ -152,7 +152,7 @@ p {
   font-size: 1.1rem;
   position: relative;
   font-family: var(--Abel);
-  font-size: 1.1rem
+  font-size: 1.1rem;
 }
 
 .nav .nav-items .nav-link:hover {
@@ -200,7 +200,7 @@ main .site-title {
 }
 
 main .site-title .site-background {
-  padding-top: 10rem;
+  padding-top: 20rem;
   text-align: center;
   color: var(--white);
 }
@@ -286,7 +286,6 @@ section .container .owl-nav {
 /* -------- End of Blog Carousel --------- */
 
 /* ----------------- Site Content --------------- */
-/* ------------ End of Site Content ------------- */
 main .site-content {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -361,6 +360,10 @@ main .post-content .post-title a {
 /* ------------ End of Site Content ------------- */
 
 /* ----------------- Side-Bar ------------------- */
+.site-content .sidebar div h2{
+  text-align: center;
+}
+
 .site-content>.sidebar .category-list {
   font-family: var(--Livvic);
 }
@@ -488,7 +491,7 @@ footer.footer .newsletter .form-element span {
 
 footer.footer .instagram div>img {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   height: 50%;
   margin: .3rem .4rem;
 }
@@ -554,10 +557,15 @@ footer.footer .move-up span:hover {
   .nav .nav-menu,
   .nav .nav-items {
     flex-direction: column;
+    padding-left: 0;
   }
 
   .nav .toggle-collapse {
     display: initial;
+  }
+
+  .nav .nav-items .nav-link {
+    padding: 1rem;
   }
 
   main .site-content {

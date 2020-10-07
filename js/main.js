@@ -10,6 +10,9 @@ const responsive = {
   },
   960: {
     items: 3
+  },
+  1900: {
+    items: 4
   }
 }
 
@@ -40,5 +43,8 @@ $(document).ready(() => {
       scrollTop: 0
     }, 2000);
   });
+
+  // AOS Instance
+  AOS.init();
 
 });
